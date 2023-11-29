@@ -266,7 +266,7 @@ function useWebView(
 
     // cf. https://gist.github.com/codebytere/409738fcb7b774387b5287db2ead2ccb
     window.api?.openWindow(id);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps test
   }, []);
 
   useEffect(() => {
