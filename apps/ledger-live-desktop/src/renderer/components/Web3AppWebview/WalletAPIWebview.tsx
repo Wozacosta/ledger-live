@@ -237,7 +237,7 @@ function useWebView(
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const { widgetLoaded, onLoad, onReload, onMessage } = useWalletAPIServer({
+  const { widgetLoaded, onLoad, onReload, onMessage, toto } = useWalletAPIServer({
     manifest,
     accounts,
     tracking,
